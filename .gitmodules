@@ -1,0 +1,30 @@
+[submodule "pack/me/start/DoxygenToolkit.vim"]
+	path = pack/me/start/DoxygenToolkit.vim
+	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+[submodule "pack/me/start/EnhancedCommentify"]
+	path = pack/me/start/EnhancedCommentify
+	url = https://github.com/hrp/EnhancedCommentify.git
+[submodule "pack/me/start/nerdtree"]
+	path = pack/me/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/me/start/phpfolding.vim"]
+	path = pack/me/start/phpfolding.vim
+	url = https://github.com/vim-scripts/phpfolding.vim.git
+[submodule "pack/me/start/supertab"]
+	path = pack/me/start/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "pack/me/start/tagbar"]
+	path = pack/me/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/me/start/vim-go"]
+	path = pack/me/start/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "pack/me/start/vim-colors-solarized"]
+	path = pack/me/start/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/me/start/tabular"]
+	path = pack/me/start/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "pack/me/start/vim-markdown"]
+	path = pack/me/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
