@@ -10,6 +10,7 @@ syntax enable
 
 set background=dark
 colorscheme peachpuff 
+hi LineNr ctermfg=2
 " colorscheme solarized
 
 set tabstop=4 
