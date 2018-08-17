@@ -9,8 +9,8 @@ filetype plugin on
 syntax enable
 
 set background=dark
-" colorscheme peachpuff 
-colorscheme solarized
+colorscheme peachpuff 
+" colorscheme solarized
 
 set tabstop=4 
 set shiftwidth=4 
@@ -20,21 +20,15 @@ set smartindent
 set cin 
 
 set showmatch 
-set guioptions-=T 
+"set guioptions-=T 
 set vb t_vb= 
 set ruler 
 set hls 
 set incsearch 
 
-
-
 "自动对齐
 vmap t= :Tabularize /=<CR>
 vmap t, :Tabularize /,<CR>
-
-"折叠相关
-set foldcolumn=2
-set fdm=marker
 
 map<F3> :NERDTreeToggle<CR>
 map<F4> :TagbarToggle<CR>

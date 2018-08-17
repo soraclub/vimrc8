@@ -18,6 +18,7 @@ ia reutils require_once ('nicaifu_vutils/Loader.php');<ESC>V3<
 ia stm $bg = microtime(true);<CR><CR>$ed = microtime(true);<CR>$cst = ($ed - $bg)*1000;<ESC>2k
 ia {} {<CR>}<ESC><UP>
 
+set fdm=marker
 set commentstring=/*%s*/
 vmap t> :Tabularize /=><CR>
 
