@@ -28,3 +28,6 @@
 [submodule "pack/me/start/vim-markdown"]
 	path = pack/me/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "pack/me/opt/asyncrun"]
+	path = pack/me/opt/asyncrun
+	url = https://github.com/skywind3000/asyncrun.vim.git
