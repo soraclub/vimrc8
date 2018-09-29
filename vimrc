@@ -57,6 +57,11 @@ nmap d( vi(d
 nmap d{ vi{d
 nmap d[ vi[d
 
+"自定义pack
+packadd asyncrun
+let g:asyncrun_open = 8
+vmap :cht :AsyncRun read word; fn="%"; curl -s "cht.sh/${fn\#\#*.}/$word?T"
+
 " 加载自定义命令
 source ~/.vim/spec/mycmd.vim
 
