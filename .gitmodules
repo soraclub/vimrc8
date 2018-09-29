@@ -7,9 +7,6 @@
 [submodule "pack/me/start/nerdtree"]
 	path = pack/me/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "pack/me/start/phpfolding.vim"]
-	path = pack/me/opt/phpfolding.vim
-	url = https://github.com/soraclub/phpfolding.vim.git
 [submodule "pack/me/start/supertab"]
 	path = pack/me/start/supertab
 	url = https://github.com/ervandew/supertab.git
@@ -31,3 +28,6 @@
 [submodule "pack/me/opt/asyncrun"]
 	path = pack/me/opt/asyncrun
 	url = https://github.com/skywind3000/asyncrun.vim.git
+[submodule "pack/me/opt/phpfolding.vim"]
+	path = pack/me/opt/phpfolding.vim
+	url = https://github.com/soraclub/phpfolding.vim.git
