@@ -31,3 +31,6 @@
 [submodule "pack/me/opt/asyncrun.vim"]
 	path = pack/me/opt/asyncrun.vim
 	url = https://github.com/skywind3000/asyncrun.vim.git
+[submodule "pack/me/start/bufexplorer"]
+	path = pack/me/start/bufexplorer
+	url = https://github.com/vim-scripts/bufexplorer.zip.git
