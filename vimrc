@@ -29,6 +29,9 @@ set ruler
 set hls 
 set incsearch 
 
+" 搜索 先出列表 参考 :ts
+map <C-]> g<C-]>
+
 "自动对齐
 vmap t= :Tabularize /=<CR>
 vmap t, :Tabularize /,<CR>
