@@ -1,6 +1,6 @@
 set nocin
 set commentstring=/*%s*/
-map<F10> :!gj_gorun.sh %<CR>
+map<F10> :!go run %<CR>
 map<F11> :!gofmt -w %<CR>
 ia vd fmt.Printf("%+v\n",  )<ESC>h
 ia {} {<CR>}<ESC><UP>
