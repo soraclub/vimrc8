@@ -11,6 +11,8 @@ setlocal omnifunc=gocomplete#Complete
 
 let g:go_version_warning = 0
 
+let g:go_fmt_command = "goimports"
+
 " tagbar
 "  let g:tagbar_type_go = {
 "      \ 'ctagstype' : 'go',
