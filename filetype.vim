@@ -3,3 +3,7 @@ au BufNewFile,BufRead */nginx/*.conf,*/nginx/**/*.conf,nginx.conf,ngx.conf setf 
 
 " xdebug_trace
 au BufNewFile,BufRead *.xt  setf xt
+
+" dockerfile
+au BufNewFile,BufRead *.[dD]ockerfile,[dD]ockerfile,[dD]ockerfile.* setf dockerfile
+
