@@ -1,5 +1,5 @@
 set nocin
-map<F10> :!lua %<CR>
+map<F10> :!luajit %<CR>
 set commentstring=--%s
 ia vd print( , "\n")<CR>os.exit()<ESC>Vk2<6l
 ia vdvd var_dump( )<CR>os.exit()<ESC>Vk2<9l
