@@ -1,12 +1,3 @@
-" ia s1 echo "---------------step 1 ---------------<br>\n";
-" ia s2 echo "---------------step 2 ---------------<br>\n";
-" ia s3 echo "---------------step 3 ---------------<br>\n";
-" ia s4 echo "---------------step 4 ---------------<br>\n";
-" ia s5 echo "---------------step 5 ---------------<br>\n";
-" ia s6 echo "---------------step 6 ---------------<br>\n";
-" ia s7 echo "---------------step 7 ---------------<br>\n";
-" ia s8 echo "---------------step 8 ---------------<br>\n";
-" ia s9 echo "---------------step 9 ---------------<br>\n";
 ia tsd echo "<pre>"; var_dump( ); echo "</pre>";<CR>exit(__FILE__.PHP_EOL);<ESC>Vk2<23l
 ia tsr echo "<pre>"; print_r( ); echo "</pre>";<CR>exit(__FILE__.PHP_EOL);<ESC>Vk2<22l
 ia tse echo "<pre>"; var_export( ); echo "</pre>";<CR>exit(__FILE__.PHP_EOL);<ESC>Vk2<25l
@@ -14,7 +5,6 @@ ia vd var_dump( );<CR>exit(__FILE__.PHP_EOL);<ESC>Vk2<9l
 ia vr print_r( );<CR>exit(__FILE__.PHP_EOL);<ESC>Vk2<8l
 ia setp set_include_path('/home/huangyufei/devspace/:'.get_include_path());<ESC>V3<
 ia setrpt error_reporting(E_ALL & ~E_NOTICE);<ESC>V3<
-ia reutils require_once ('nicaifu_vutils/Loader.php');<ESC>V3<
 ia stm $bg = microtime(true);<CR><CR>$ed = microtime(true);<CR>$cst = ($ed - $bg)*1000;<ESC>2k
 ia {} {<CR>}<ESC><UP>
 
@@ -25,6 +15,25 @@ vmap t> :Tabularize /=><CR>
 setlocal omnifunc=syntaxcomplete#Complete
 
 map<F10> :!php %<CR>
+
+function! s:Vdbg()
+    let g:vdebug_options = {
+      \ 'break_on_open': 0,
+      \ 'port': '9001'
+      \ }
+    mapclear
+    :pa vdebug
+endfunction
+if !exists(":Vdbg")
+    command Vdbg :call s:Vdbg()
+endif 
+
+" 开了debug，就关掉其他快捷键映射，加载vdebug映射
+if exists('g:is_vdebug_loaded')
+    mapclear
+    call Vdebug_load_keymaps(g:vdebug_keymap)
+endif
+    
 
 " tagbar
 "let g:tagbar_type_php = {

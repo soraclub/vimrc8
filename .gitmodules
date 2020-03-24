@@ -34,6 +34,6 @@
 [submodule "pack/me/start/bufexplorer"]
 	path = pack/me/start/bufexplorer
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "pack/me/opt/xdebug"]
-	path = pack/me/opt/xdebug
-	url = https://github.com/MarcWeber/vim-addon-xdebug.git
+[submodule "pack/me/opt/vdebug"]
+	path = pack/me/opt/vdebug
+	url = https://github.com/vim-vdebug/vdebug.git

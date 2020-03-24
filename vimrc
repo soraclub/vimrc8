@@ -39,7 +39,6 @@ vmap t, :Tabularize /,<CR>
 
 map<F3> :NERDTreeToggle<CR>
 map<F4> :TagbarToggle<CR>
-map<F5> :Project<CR>
 
 "nerd配置
 let NERDTreeIgnore=['\.pyc','\~$','\.swp']
