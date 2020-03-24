@@ -37,3 +37,6 @@
 [submodule "pack/me/opt/vdebug"]
 	path = pack/me/opt/vdebug
 	url = https://github.com/vim-vdebug/vdebug.git
+[submodule "pack/me/start/ack.vim"]
+	path = pack/me/start/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
