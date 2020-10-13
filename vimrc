@@ -21,7 +21,7 @@ set shiftwidth=4
 set expandtab
 
 set smartindent 
-set cin 
+"set cin 
 
 set showmatch 
 "set guioptions-=T 
