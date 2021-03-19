@@ -6,6 +6,7 @@ set fileencoding=utf-8
 set backspace=indent,eol,start
 set mouse=
 "set term=linux
+"
 
 filetype on
 filetype plugin on
@@ -15,6 +16,9 @@ set background=dark
 colorscheme peachpuff 
 hi LineNr ctermfg=2
 " colorscheme solarized
+if &diff
+  colorscheme industry
+endif
 
 set tabstop=4 
 set shiftwidth=4 
