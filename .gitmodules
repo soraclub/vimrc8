@@ -1,9 +1,3 @@
-[submodule "pack/me/start/DoxygenToolkit.vim"]
-	path = pack/me/start/DoxygenToolkit.vim
-	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
-[submodule "pack/me/start/EnhancedCommentify"]
-	path = pack/me/start/EnhancedCommentify
-	url = https://github.com/hrp/EnhancedCommentify.git
 [submodule "pack/me/start/nerdtree"]
 	path = pack/me/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -25,9 +19,6 @@
 [submodule "pack/me/start/vim-markdown"]
 	path = pack/me/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
-[submodule "pack/me/opt/phpfolding.vim"]
-	path = pack/me/opt/phpfolding.vim
-	url = https://github.com/soraclub/phpfolding.vim.git
 [submodule "pack/me/opt/asyncrun.vim"]
 	path = pack/me/opt/asyncrun.vim
 	url = https://github.com/skywind3000/asyncrun.vim.git
